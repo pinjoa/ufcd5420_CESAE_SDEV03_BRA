@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Restaurant Order Management</title>
+  <style>
+    table {
+      border-collapse: collapse;
+    }
+
+    th, td {
+      border: 1px solid black;
+      padding: 8px;
+    }
+  </style>
+</head>
+<body>
+  <h1>Restaurant Order Management</h1>
+
+  <div>
+    <label for="customerName">Customer Name:</label>
+    <input type="text" id="customerName">
+    <label for="item">Item:</label>
+    <input type="text" id="item">
+    <button onclick="placeOrder()">Place Order</button>
+  </div>
+
+  <br>
+
+  <table id="orderTable">
+    <tr>
+      <th>Order ID</th>
+      <th>Customer Name</th>
+      <th>Items</th>
+      <th>Status</th>
+    </tr>
+  </table>
+
+  <script>
+    const orders = [];
+
+    function placeOrder() {
+      const customerNameInput = document.getElementById('customerName');
+      const itemInput = document.getElementById('item');
+      
+      const customerName = customerNameInput.value;
+      const items = itemInput.value.split(',');
+
+      const newOrder = {
+        orderId: orders.length + 1,
+        customerName,
+        items,
+        status: 'Pending'
+      };
+
+      orders.push(newOrder);
+      displayOrder(newOrder);
+      clearInputs();
+    }
+
+    function displayOrder(order) {
+      const orderTable = document.getElementById('orderTable');
+      const row = orderTable.insertRow();
+
+      const orderIdCell = row.insertCell();
+      orderIdCell.textContent = order.orderId;
+
+      const customerNameCell = row.insertCell();
+      customerNameCell.textContent = order.customerName;
+
+      const itemsCell = row.insertCell();
+      itemsCell.textContent = order.items.join(', ');
+
+      const statusCell = row.insertCell();
+      statusCell.textContent = order.status;
+    }
+
+    function clearInputs() {
+      document.getElementById('customerName').value = '';
+      document.getElementById('item').value = '';
+    }
+  </script>
+</body>
+</html>
+
