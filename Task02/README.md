@@ -22,7 +22,7 @@ Mantendo a ideia de desconstrução de processos para introduzr novas estratégi
 
 ### Objetivo:  
 
-Tendo como base as pistas fornecidas por imagem, som e a própria mensagem. Pretende-se uma lista de classes (podem mais do que uma lista) com o seguinte detalhe individual para cada classe:
+Tendo como base as pistas fornecidas por imagem, som e a própria mensagem. Pretende-se uma lista de classes (podem criar mais do que uma lista) com o seguinte detalhe individual para cada classe:
 - uma breve descrição;
 - hierarquia, dependência, ... ou outra carateristica considerada importante;
  
