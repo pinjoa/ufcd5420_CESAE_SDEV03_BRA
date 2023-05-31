@@ -13,9 +13,8 @@ Com a programação dinâmica vamos materializar algumas ideias e apresentar con
  
 **Material de trabalho**:
  
-Como ponto de partida, o material proposto é um video:
-- Foi partilhado no feed do canal;
-- A [fonte](https://www.youtube.com/watch?V=FA8SgdpW8Dk) utilizada está disponível online na plataforma [Youtube](https://www.youtube.com/watch?V=FA8SgdpW8Dk).
+Como ponto de partida, o material proposto é um video e foi partilhado no feed do canal.
+
 
 Mantendo a ideia de desconstrução de processos para introduzr novas estratégias mentais de análise de problemas apresento este video como uma ideia de enunciado. 
 
