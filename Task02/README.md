@@ -13,12 +13,12 @@ Com a programação dinâmica vamos materializar algumas ideias e apresentar con
  
 **Material de trabalho**:
  
-Como ponto de partida, o material proposto é um video e foi partilhado no feed do canal.
+Como ponto de partida, o material proposto é um vídeo e foi partilhado no feed do canal.
 
 
-Mantendo a ideia de desconstrução de processos para introduzr novas estratégias mentais de análise de problemas apresento este video como uma ideia de enunciado. 
+Mantendo a ideia de desconstrução de processos para introduzir novas estratégias mentais de análise de problemas apresento este vídeo como uma ideia de enunciado. 
 
-É um meio de abstração interessante para análisar e recolher dados necessários para produzir e desenvolver a fase inicial da tarefa.
+É um meio de abstração interessante para analisar e recolher dados necessários para produzir e desenvolver a fase inicial da tarefa.
 
 ### Objetivo:  
 
@@ -32,7 +32,7 @@ Tendo como base as pistas fornecidas por imagem, som e a própria mensagem. Pret
 - Nessa pasta deverá existir um ficheiro "README.md" (documento escrito em notação Markdown) com todo o conteúdo necessário para responder ao desafio proposto. 
   
 
-### Legendas do video partilhado no feed do canal no TEAMS
+### Legendas do vídeo partilhado no feed do canal no TEAMS
 
   
 1
