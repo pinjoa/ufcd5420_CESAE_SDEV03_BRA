@@ -8,5 +8,6 @@ Criação de exemplos para os diversos cenários abordados em contexto de aula.
 - [Veiculos](Veiculos/), demonstração de aplicação do padrão de design Abstract; 
 - [FabricaBrinquedos](FabricaBrinquedos/), demonstração de aplicação do padrão de design Factory (inclui também abstract e erros personalizados); 
 - [TratamentoErros](TratamentoErros/), demonstração da personalização do tratamento de erros;
-- [Logger](Logger/), demonstração de aplicação do padrão de design Singleton (thread-safe); 
+- [Logger](Logger/), outra aplicação do padrão de design Singleton (thread-safe); 
+- [ContadorUnico](ContadorUnico/), outra aplicação do padrão de design Singleton; 
 
