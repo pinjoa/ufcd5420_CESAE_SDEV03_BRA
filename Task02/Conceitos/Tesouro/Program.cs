@@ -40,6 +40,8 @@ namespace Tesouro
             t2.Guardar();
         
             Console.WriteLine(t1 == t2); // True, pois t1 e t2 referenciam a mesma instância
+            Console.WriteLine(ReferenceEquals(t1, t2));
+            
 
         }
     }
