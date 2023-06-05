@@ -12,11 +12,11 @@ namespace FabricaBrinquedos
         public abstract void Mover();
     }
 
-    public class UrsoPelucia : Brinquedo
+    public class UrsoPeluche : Brinquedo
     {
         public override void Mover()
         {
-            Console.WriteLine("O urso de pelúcia está a mexer-se.");
+            Console.WriteLine("O urso de peluche está a mexer-se.");
         }
     }
 
@@ -42,8 +42,8 @@ namespace FabricaBrinquedos
         {
             switch (tipo)
             {
-                case "UrsoPelucia":
-                    return new UrsoPelucia();
+                case "UrsoPeluche":
+                    return new UrsoPeluche();
                 case "CarroControleRemoto":
                     return new CarroControleRemoto();
                 case "Boneca":
@@ -60,7 +60,7 @@ namespace FabricaBrinquedos
         {
             FabricaBrinquedos fabrica = new FabricaBrinquedos();
 
-            Brinquedo urso = fabrica.CriarBrinquedo("UrsoPelucia");
+            Brinquedo urso = fabrica.CriarBrinquedo("UrsoPeluche");
             urso.Mover();
 
             Brinquedo carro = fabrica.CriarBrinquedo("CarroControleRemoto");
