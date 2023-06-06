@@ -10,5 +10,7 @@ Sugestão de consulta: [Markdown Guide, Basic Syntax](https://www.markdownguide.
 Código de projetos resolvidos/partilhados em contexto de aula: 
   
 - [Task01](Task01/), aula 29-mai-2023
-- [Task02](Task02/), aula 05-jun-2023
+- [Task02.A](Task02.A/), aula 05-jun-2023
+- [Task02.B](Task02.B/), tarefa 07-jun-2023
+- [Task03](Task03/), aula 07-jun-2023
 
