@@ -6,7 +6,7 @@ Tarefa de implementação do conteúdo relacionado com *padrões de design* em *
 
 **Material de trabalho**:
  
-Como material de trabalho deve ser implementada a estrutura de dados identificada na parte inicial da tarefa([Task02.A](README.md)). 
+Como material de trabalho deve ser implementada a estrutura de dados identificada na parte inicial da tarefa([Task02.A](../Task02.A/README.md)). 
 (No caso de terem sido identificadas mais do que uma estrutura, deve-se escolher apenas uma.)
 
 **Objetivo**:
@@ -20,7 +20,7 @@ A execução do programa deve apresentar evidências da utilização das carater
 
 ### Método para responder ao desafio: 
  
-- Na resposta da tarefa no TEAMS deverá ser fornecido o **URL** para uma pasta "Task02" (do repositório individual no github), **local onde deve ser criada a solução em C#**;
-- Nessa pasta deverá existir um ficheiro "**README.B.md**" *com a descrição das escolhas feitas para responder ao desafio proposto*. (documento escrito em notação Markdown)
+- Na resposta da tarefa no TEAMS deverá ser fornecido o **URL** para uma pasta "Task02.B" (do repositório individual no github), **local onde deve ser criada a solução em C#**;
+- Nessa pasta também deverá existir um ficheiro "**README.md**" *com a descrição das escolhas feitas para responder ao desafio proposto*. (documento escrito em notação Markdown)
 
   

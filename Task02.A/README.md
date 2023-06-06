@@ -28,7 +28,7 @@ Tendo como base as pistas fornecidas por imagem, som e a própria mensagem. Pret
  
 ### Método para responder ao desafio: 
  
-- Na resposta da tarefa no TEAMS deverá ser fornecido o **URL** para uma pasta "Task02" (do repositório individual no github);
+- Na resposta da tarefa no TEAMS deverá ser fornecido o **URL** para uma pasta "Task02.A" (do repositório individual no github);
 - Nessa pasta deverá existir um ficheiro "README.md" (documento escrito em notação Markdown) com todo o conteúdo necessário para responder ao desafio proposto. 
   
 
