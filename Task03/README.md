@@ -18,7 +18,7 @@ Utilizando como base o projeto de POO, deve-se escolher uma estrutura do projeto
 **Objetivo**:
  
 Aplicar as estratégias abordadas em contexto de aula para reescrever o código escolhido. 
-(o motivo desta sugestão é aproveitar o facto de já terem um projeto implementado, ainda está "fresco" na memória portanto, pode-se avançar para a refactorização do bloco de código escolhido com um pouco de análise para se planear a transformação semm perda de funcionalidades)
+(o motivo desta sugestão é aproveitar o facto de já terem um projeto implementado, ainda está "fresco" na memória portanto, pode-se avançar para a refactorização do bloco de código escolhido com um pouco de análise para se planear a transformação sem perda de funcionalidades)
 
 **Atenção**:
 
