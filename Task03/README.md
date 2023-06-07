@@ -4,6 +4,6 @@
  
 Tarefa de preparação para o conteúdo relacionado com *padrões de arquitetura* em **C#**. 
 
-- MVC 
-
+- MVC (duas implementações do mesmo contexto com a mesma estrutura)
+- MVVM  
   
