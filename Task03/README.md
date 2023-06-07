@@ -17,7 +17,8 @@ Utilizando como base o projeto de POO, deve-se escolher uma estrutura do projeto
 
 **Objetivo**:
  
-Aplicar as estratégias abordadas em contexto de aula para reescrever o código escolhido.
+Aplicar as estratégias abordadas em contexto de aula para reescrever o código escolhido. 
+(o motivo desta sugestão é aproveitar o facto de já terem um projeto implementado, ainda está "fresco" na memória portanto, pode-se avançar para a refactorização do bloco de código escolhido com um pouco de análise para se planear a transformação semm perda de funcionalidades)
 
 **Atenção**:
 
@@ -28,6 +29,7 @@ Aplicar as estratégias abordadas em contexto de aula para reescrever o código 
 ### Método para responder ao desafio: 
  
 - Na resposta da tarefa no TEAMS deverá ser fornecido o **URL** para uma pasta "Task03" (do repositório individual no github), **local onde deve ser criada a solução em C#**;
+- Deverá ser fornecido a parte do código escolhida para se analisar as opções e comparar as funcionalidades originais com o resultado apresentado;
 - Nessa pasta também deverá existir um ficheiro "**README.md**" *com a descrição das escolhas feitas para responder ao desafio proposto*. (documento escrito em notação Markdown)
 
   
