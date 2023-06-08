@@ -4,12 +4,12 @@
  
 Conteúdo relacionado com *padrões de arquitetura* em **C#**. 
 
-- MVC (três implementações do mesmo contexto)
+- MVC (três implementações do mesmo contexto):
    - [Estudantes.A](MVC/Estudantes.A/) Simplificada
    - [Estudantes.B](MVC/Estudantes.B/) Com separação de camadas
    - [Estudantes.C](MVC/Estudantes.C/) Redesenhada em camadas e com abstração do I/O dos dados implementando interfaces (esta versão é a que foi iniciada em contexto de aula)
    
-   
+	> *informação adicional que pode ajudar a contextualizar, apesar de serem mencionados outros padrões e camadas* -> [The Principles of Clean Architecture by Uncle Bob Martin](https://www.youtube.com/watch?v=o_TH-Y78tt4&t=1667s)   
    
 **Material de trabalho**:
  
