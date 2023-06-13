@@ -8,6 +8,7 @@ Conteúdo relacionado com *padrões de arquitetura* em **C#**.
    - [Estudantes.A](MVC/Estudantes.A/) Simplificada
    - [Estudantes.B](MVC/Estudantes.B/) Com separação de camadas
    - [Estudantes.C](MVC/Estudantes.C/) Redesenhada em camadas e com abstração do I/O dos dados implementando interfaces (esta versão é a que foi iniciada em contexto de aula)
+   - [Estudantes.D](MVC/Estudantes.D/) Manteve-se a estrutura geral da versão "C", foi acrescentada classe para input de dados para tipo de dados específicos. (construido a partir da análise feita em contexto de aula)
    
 	> *informação adicional que pode ajudar a contextualizar, apesar de serem mencionados outros padrões e camadas* -> [The Principles of Clean Architecture by Uncle Bob Martin](https://www.youtube.com/watch?v=o_TH-Y78tt4&t=1667s)   
    
