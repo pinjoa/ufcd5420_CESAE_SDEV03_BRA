@@ -1,5 +1,8 @@
-.vs
-.idea
+.vs/
+.idea/
+bin/
+obj/
 *.zip
 *.7z
 *.bak
+*.sln.DotSettings.user
