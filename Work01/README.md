@@ -4,7 +4,7 @@
  
 Projeto que evolui com a matéria da aula.
 
-**Enunciado versão 01**:
+**Enunciado versão 01**:([Agenda_v01](Agenda_v01/), aula 14-jun-2023)
 
 Recebemos uma encomenda do Sr António Ocupado, um consultor que dedica apenas 15min do seu tempo para cada cliente. 
 
