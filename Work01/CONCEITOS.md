@@ -28,16 +28,20 @@ Antes de prosseguir, é importante esclarecer a diferença entre "Nível" e "Cam
 Na maioria das vezes, faz sentido dividir os níveis acima mencionados para obter ainda mais flexibilidade, refinamento, segurança e eficiência da arquitetura.  
   
 Ilustração **arquitetura 3-Tier**:    
-  
+
+(Exemplo 1)  
 ![exemplo(1) 3 camadas](res/n-tier_architecture.png)  
 (fonte: https://s7280.pcdn.co/wp-content/uploads/2017/07/N-Tier_Architecture.png)  
   
+(Exemplo 2)  
 ![exemplo(2) 3 camadas](res/overview_of_a_three-tier_application.png)  
 (fonte: https://upload.wikimedia.org/wikipedia/commons/thumb/5/51/Overview_of_a_three-tier_application_vectorVersion.svg/1186px-Overview_of_a_three-tier_application_vectorVersion.svg.png?20090531093531)  
   
+(Exemplo 3)  
 ![exemplo(3) N camadas](res/presentation_tier.png)  
 (fonte: https://s7280.pcdn.co/wp-content/uploads/2017/07/Presentation_Tier.png)  
   
+(Exemplo 4)  
 ![exemplo(4) N camadas](res/n-tier-logical.svg)  
 (fonte: https://learn.microsoft.com/en-us/azure/architecture/guide/architecture-styles/images/n-tier-logical.svg)  
   
