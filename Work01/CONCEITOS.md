@@ -37,11 +37,11 @@ Ilustração **arquitetura 3-Tier**:
 ![exemplo(2) 3 camadas](res/overview_of_a_three-tier_application.png)  
 (fonte: https://upload.wikimedia.org/wikipedia/commons/thumb/5/51/Overview_of_a_three-tier_application_vectorVersion.svg/1186px-Overview_of_a_three-tier_application_vectorVersion.svg.png?20090531093531)  
   
-(Exemplo 3)  
+(Exemplo 3, integração de sistemas)  
 ![exemplo(3) N camadas](res/presentation_tier.png)  
 (fonte: https://s7280.pcdn.co/wp-content/uploads/2017/07/Presentation_Tier.png)  
   
-(Exemplo 4)  
+(Exemplo 4 arquitetura Azure)  
 ![exemplo(4) N camadas](res/n-tier-logical.svg)  
 (fonte: https://learn.microsoft.com/en-us/azure/architecture/guide/architecture-styles/images/n-tier-logical.svg)  
   
