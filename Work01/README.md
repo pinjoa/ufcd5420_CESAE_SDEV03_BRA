@@ -20,3 +20,7 @@ Para evitar colisões de agendamento pediu um sistema que permita registar este 
   - Concluído (S/N)
   - Data/Hora da conclusão;
 
+**Enunciado versão 02**:([Agenda_v02](Agenda_v02/), aula dias 15 e 16-jun-2023)
+
+Alterações diversas, detalhadas no documento **README.md** em [Agenda_v02](Agenda_v02/) 
+
