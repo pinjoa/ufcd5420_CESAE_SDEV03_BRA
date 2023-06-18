@@ -20,19 +20,20 @@ Para evitar colisões de agendamento pediu um sistema que permita registar este 
   - Concluído (S/N)
   - Data/Hora da conclusão;
 
-**Enunciado versão 02**:
-
-Estrutura alterada:
-  - Id;
-
-*Detalhe da solução*:
-
-[Agenda_BO](Agenda_BO/) Business Object
-[Agenda_BL](Agenda_BL/) Business Logic
-[Agenda_DAL](Agenda_DAL/) Data Access Layer
-[Agenda_Consts](Agenda_Consts/) Constantes
-[SerializeTools](SerializeTools/) SerializeToXml, DeserializeXmlToObject
-[ToolBox](ToolBox/) ToolBox (ex: GetNewId)
-[Agenda_console](Agenda_console/) 1ª Abordagem (serializar XmlElement)
-[teste1xml](teste1xml/) 2ª Abordagem (serializar XmlAttribute)
-
+**Enunciado versão 02**:  
+  
+Estrutura alterada:  
+  - Id;  
+  
+*Detalhe da solução*:  
+  
+  - [Agenda_BO](Agenda_BO/) Business Object  
+  - [Agenda_BL](Agenda_BL/) Business Logic  
+  - [Agenda_DAL](Agenda_DAL/) Data Access Layer  
+  - [Agenda_Consts](Agenda_Consts/) Constantes  
+  - [SerializeTools](SerializeTools/) SerializeToXml, DeserializeXmlToObject  
+  - [ToolBox](ToolBox/) ToolBox (ex: GetNewId)  
+  - [Agenda_console](Agenda_console/) 1ª Abordagem (serializar XmlElement)  
+  - [teste1xml](teste1xml/) 2ª Abordagem (serializar XmlAttribute)  
+  
+  
