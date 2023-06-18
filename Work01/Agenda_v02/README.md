@@ -31,7 +31,7 @@ Estrutura alterada:
   - [Agenda_BL](Agenda_BL/): Business Logic  
   - [Agenda_DAL](Agenda_DAL/): Data Access Layer  
   - [Agenda_Consts](Agenda_Consts/): Constantes  
-  - [SerializeTools](SerializeTools/): SerializeToXml, DeserializeXmlToObject  
+  - [SerializeTools](SerializeTools/): SerializeToXml, DeserializeXmlToObject (estrutura genérica preparada para qualquer classe serializável)  
   - [ToolBox](ToolBox/): ToolBox (ex: GetNewId)  
   - [Agenda_console](Agenda_console/): 1ª Abordagem, (serializar) XmlElement  
   - [teste1xml](teste1xml/): 2ª Abordagem, (serializar) XmlAttribute  
