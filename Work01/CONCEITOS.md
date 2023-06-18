@@ -12,7 +12,7 @@ Utilizados nos diversos componentes da solução em:
   
   
 ## Aplicação prática da arquitetura N-Tier:    
-![Camadas](/res/camadas.jpg)  
+![Camadas](res/camadas.jpg)  
 (fonte: https://s7280.pcdn.co/wp-content/uploads/2017/08/GettyImages-673113782.jpg.optimal.jpg)
   
 **O que é a arquitetura de N camadas**?    
@@ -29,21 +29,21 @@ Na maioria das vezes, faz sentido dividir os níveis acima mencionados para obte
   
 Ilustração **arquitetura 3-Tier**:    
   
-![exemplo(1) 3 camadas](/res/n-tier_architecture.png)  
+![exemplo(1) 3 camadas](res/n-tier_architecture.png)  
 (fonte: https://s7280.pcdn.co/wp-content/uploads/2017/07/N-Tier_Architecture.png)  
   
-![exemplo(2) 3 camadas](/res/overview_of_a_three-tier_application.png)  
+![exemplo(2) 3 camadas](res/overview_of_a_three-tier_application.png)  
 (fonte: https://upload.wikimedia.org/wikipedia/commons/thumb/5/51/Overview_of_a_three-tier_application_vectorVersion.svg/1186px-Overview_of_a_three-tier_application_vectorVersion.svg.png?20090531093531)  
   
-![exemplo(3) N camadas](/res/presentation_tier.png)  
+![exemplo(3) N camadas](res/presentation_tier.png)  
 (fonte: https://s7280.pcdn.co/wp-content/uploads/2017/07/Presentation_Tier.png)  
   
-![exemplo(4) N camadas](/res/n-tier-logical.svg)  
+![exemplo(4) N camadas](res/n-tier-logical.svg)  
 (fonte: https://learn.microsoft.com/en-us/azure/architecture/guide/architecture-styles/images/n-tier-logical.svg)  
   
 
 ## Princípios SOLID:
-![SOLID](/res/principios-SOLID.png)  
+![SOLID](res/principios-SOLID.png)  
 (fonte: https://miro.medium.com/v2/resize:fit:2000/format:webp/1*3VP8ciBC2w0NVV3JibPobw.png)
 
 
