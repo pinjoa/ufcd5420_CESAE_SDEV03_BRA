@@ -1,0 +1,14 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>net6.0</TargetFramework>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <Nullable>enable</Nullable>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\Agenda_BO\Agenda_BO.csproj" />
+    <ProjectReference Include="..\Agenda_DAL\Agenda_DAL.csproj" />
+  </ItemGroup>
+
+</Project>
