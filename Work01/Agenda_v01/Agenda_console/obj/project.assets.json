@@ -1,0 +1,150 @@
+{
+  "version": 3,
+  "targets": {
+    "net6.0": {
+      "Agenda_BL/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v6.0",
+        "dependencies": {
+          "Agenda_BO": "1.0.0",
+          "Agenda_DAL": "1.0.0"
+        },
+        "compile": {
+          "bin/placeholder/Agenda_BL.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/Agenda_BL.dll": {}
+        }
+      },
+      "Agenda_BO/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v6.0",
+        "dependencies": {
+          "Agenda_Consts": "1.0.0"
+        },
+        "compile": {
+          "bin/placeholder/Agenda_BO.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/Agenda_BO.dll": {}
+        }
+      },
+      "Agenda_Consts/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v6.0",
+        "compile": {
+          "bin/placeholder/Agenda_Consts.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/Agenda_Consts.dll": {}
+        }
+      },
+      "Agenda_DAL/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v6.0",
+        "dependencies": {
+          "Agenda_BO": "1.0.0"
+        },
+        "compile": {
+          "bin/placeholder/Agenda_DAL.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/Agenda_DAL.dll": {}
+        }
+      }
+    }
+  },
+  "libraries": {
+    "Agenda_BL/1.0.0": {
+      "type": "project",
+      "path": "../Agenda_BL/Agenda_BL.csproj",
+      "msbuildProject": "../Agenda_BL/Agenda_BL.csproj"
+    },
+    "Agenda_BO/1.0.0": {
+      "type": "project",
+      "path": "../Agenda_BO/Agenda_BO.csproj",
+      "msbuildProject": "../Agenda_BO/Agenda_BO.csproj"
+    },
+    "Agenda_Consts/1.0.0": {
+      "type": "project",
+      "path": "../Agenda_Consts/Agenda_Consts.csproj",
+      "msbuildProject": "../Agenda_Consts/Agenda_Consts.csproj"
+    },
+    "Agenda_DAL/1.0.0": {
+      "type": "project",
+      "path": "../Agenda_DAL/Agenda_DAL.csproj",
+      "msbuildProject": "../Agenda_DAL/Agenda_DAL.csproj"
+    }
+  },
+  "projectFileDependencyGroups": {
+    "net6.0": [
+      "Agenda_BL >= 1.0.0",
+      "Agenda_BO >= 1.0.0"
+    ]
+  },
+  "packageFolders": {
+    "C:\\Users\\cesae\\.nuget\\packages\\": {}
+  },
+  "project": {
+    "version": "1.0.0",
+    "restore": {
+      "projectUniqueName": "C:\\Users\\cesae\\OneDrive - CESAE\\Documentos\\GitHub\\cesae_isi_5420\\Work01\\Agenda_v01\\Agenda_console\\Agenda_console.csproj",
+      "projectName": "Agenda_console",
+      "projectPath": "C:\\Users\\cesae\\OneDrive - CESAE\\Documentos\\GitHub\\cesae_isi_5420\\Work01\\Agenda_v01\\Agenda_console\\Agenda_console.csproj",
+      "packagesPath": "C:\\Users\\cesae\\.nuget\\packages\\",
+      "outputPath": "C:\\Users\\cesae\\OneDrive - CESAE\\Documentos\\GitHub\\cesae_isi_5420\\Work01\\Agenda_v01\\Agenda_console\\obj\\",
+      "projectStyle": "PackageReference",
+      "configFilePaths": [
+        "C:\\Users\\cesae\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+      ],
+      "originalTargetFrameworks": [
+        "net6.0"
+      ],
+      "sources": {
+        "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+        "https://api.nuget.org/v3/index.json": {}
+      },
+      "frameworks": {
+        "net6.0": {
+          "targetAlias": "net6.0",
+          "projectReferences": {
+            "C:\\Users\\cesae\\OneDrive - CESAE\\Documentos\\GitHub\\cesae_isi_5420\\Work01\\Agenda_v01\\Agenda_BL\\Agenda_BL.csproj": {
+              "projectPath": "C:\\Users\\cesae\\OneDrive - CESAE\\Documentos\\GitHub\\cesae_isi_5420\\Work01\\Agenda_v01\\Agenda_BL\\Agenda_BL.csproj"
+            },
+            "C:\\Users\\cesae\\OneDrive - CESAE\\Documentos\\GitHub\\cesae_isi_5420\\Work01\\Agenda_v01\\Agenda_BO\\Agenda_BO.csproj": {
+              "projectPath": "C:\\Users\\cesae\\OneDrive - CESAE\\Documentos\\GitHub\\cesae_isi_5420\\Work01\\Agenda_v01\\Agenda_BO\\Agenda_BO.csproj"
+            }
+          }
+        }
+      },
+      "warningProperties": {
+        "warnAsError": [
+          "NU1605"
+        ]
+      }
+    },
+    "frameworks": {
+      "net6.0": {
+        "targetAlias": "net6.0",
+        "imports": [
+          "net461",
+          "net462",
+          "net47",
+          "net471",
+          "net472",
+          "net48",
+          "net481"
+        ],
+        "assetTargetFallback": true,
+        "warn": true,
+        "frameworkReferences": {
+          "Microsoft.NETCore.App": {
+            "privateAssets": "all"
+          }
+        },
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.304\\RuntimeIdentifierGraph.json"
+      }
+    }
+  }
+}
