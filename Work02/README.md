@@ -16,15 +16,19 @@ Tema escolhido individualmente.
   - Análise;
   - Código C# bem estruturado;
   - Aplicar e saber aplicar padrões de design (Singleton, Abstract, Factory);
+  - Aplicar e saber aplicar interfaces;
   - Aplicar e saber aplicar padrões de arquitetura (MVC/MVVM, N-Tier);
   - Solução final bem construida e projetos/componentes bem definidos;
   - Reutilização de código;
+  - (implementação da camada de acesso a base de dados, alternativa a XML)
+  - (implementação de WebApp)
+  - (implementação de cliente de WebApp)
 
 
 ### Entregáveis
 
   - Solução completa (sem binários) no repositório privado individual;
-  - Pelo menos um projeto tipo console, com evidências para demonstrar o funcionamento da solução do projeto;
+  - Pelo menos um projeto "tipo console", com evidências para demonstrar o funcionamento da solução do projeto;
   
 NOTA: deve ser incluido um documento no formato PDF com os diapositivos da apresentação
 
