@@ -17,6 +17,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SerializeTools", "Serialize
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ToolBox", "ToolBox\ToolBox.csproj", "{0B63D7F1-E2B3-411C-9A1C-B46F77ED565D}"
 EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "teste1xml", "teste1xml\teste1xml.csproj", "{0A49D16F-A859-4896-9FE8-B2A42C7616EC}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -51,6 +53,10 @@ Global
 		{0B63D7F1-E2B3-411C-9A1C-B46F77ED565D}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{0B63D7F1-E2B3-411C-9A1C-B46F77ED565D}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{0B63D7F1-E2B3-411C-9A1C-B46F77ED565D}.Release|Any CPU.Build.0 = Release|Any CPU
+		{0A49D16F-A859-4896-9FE8-B2A42C7616EC}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{0A49D16F-A859-4896-9FE8-B2A42C7616EC}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{0A49D16F-A859-4896-9FE8-B2A42C7616EC}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{0A49D16F-A859-4896-9FE8-B2A42C7616EC}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

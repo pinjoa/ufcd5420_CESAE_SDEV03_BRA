@@ -19,9 +19,13 @@ Para evitar colisões de agendamento pediu um sistema que permita registar este 
   - Tipo de agendamento (Profissional, Pessoal);
   - Concluído (S/N)
   - Data/Hora da conclusão;
-
-**Enunciado versão 02**:([Agenda_v03](Agenda_v03/), aula dias 15 e 16-jun-2023)
-
-Alterações diversas, detalhadas no documento **README.md** em [Agenda_v02](Agenda_v02/) 
-
-Alterações diversas, detalhadas no documento **README.md** em [Agenda_v03](Agenda_v03/) 
+ 
+**Enunciado versão 02**:
+ 
+  - Agenda_v02: solução removida e substituida pela **Agenda_v03**  
+  - [Agenda_v03](Agenda_v03/), aula dias 15, 16 e 23-jun-2023
+ 
+Alterações diversas, detalhadas no documento **README.md**
+ 
+ 
+ 
