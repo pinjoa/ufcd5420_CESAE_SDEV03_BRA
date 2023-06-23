@@ -13,5 +13,5 @@ Código de projetos resolvidos/partilhados em contexto de aula:
 - [Task02.A](Task02.A/), aula 05-jun-2023
 - [Task02.B](Task02.B/), tarefa 07-jun-2023
 - [Task03](Task03/), aula 07-jun-2023 e tarefa 12-jun-2023
-- [Work01](Work01/), aula 14-jun-2023
+- [Work01](Work01/), iniciado na aula 14-jun-2023
 
