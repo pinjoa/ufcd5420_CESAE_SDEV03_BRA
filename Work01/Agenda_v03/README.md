@@ -4,7 +4,7 @@
  
 Projeto que evolui com a matéria da aula.
 
-**Enunciado versão 01**:([Agenda_v01](Agenda_v01/), aula 14-jun-2023)
+**Enunciado versão 01**:
 
 Recebemos uma encomenda do Sr António Ocupado, um consultor que dedica apenas 15min do seu tempo para cada cliente. 
 
@@ -20,8 +20,19 @@ Para evitar colisões de agendamento pediu um sistema que permita registar este 
   - Concluído (S/N)
   - Data/Hora da conclusão;
 
-**Enunciado versão 02**:([Agenda_v03](Agenda_v03/), aula dias 15 e 16-jun-2023)
-
-Alterações diversas, detalhadas no documento **README.md** em [Agenda_v02](Agenda_v02/) 
-
-Alterações diversas, detalhadas no documento **README.md** em [Agenda_v03](Agenda_v03/) 
+**Enunciado versão 02**:  
+  
+Estrutura alterada:  
+  - Id;  
+  
+*Detalhe da solução*:  
+  
+  - [Agenda_BO](Agenda_BO/): Business Object (Compromisso, RegistoCompromisso)  
+  - [Agenda_BL](Agenda_BL/): Business Logic  
+  - [Agenda_DAL](Agenda_DAL/): Data Access Layer  
+  - [Agenda_Consts](Agenda_Consts/): Constantes (Prioridade, TipoAgendamento, Constantes)  
+  - [SerializeTools](SerializeTools/): SerializeToXml, DeserializeXmlToObject (estrutura genérica preparada para qualquer classe serializável)  
+  - [ToolBox](ToolBox/): ToolBox (ex: GetNewId)  
+  - [Agenda_console](Agenda_console/): cliente console  
+  
+  
