@@ -1,5 +1,4 @@
-﻿using System.IO;
-using System.Xml.Serialization;
+﻿using System.Xml.Serialization;
 
 namespace SerializeTools
 {
@@ -15,14 +14,21 @@ namespace SerializeTools
         /// <param name="anyobject"></param>
         /// <returns></returns>
         public static string SerializeToXml<T>(T anyobject) where T : class  
-        {  
-            XmlSerializer xmlSerializer = new XmlSerializer(anyobject.GetType());  
-  
-            using (TextWriter writer = new StringWriter())  
-            {  
-                xmlSerializer.Serialize(writer, anyobject);
-                return writer.ToString();
-            }  
+        {
+            if (!ReferenceEquals(anyobject, null))
+            {
+                XmlSerializer xmlSerializer = new XmlSerializer(anyobject.GetType());
+
+                using (TextWriter writer = new StringWriter())
+                {
+                    xmlSerializer.Serialize(writer, anyobject);
+                    return writer.ToString() ?? "";
+                }
+            } 
+            else
+            {
+                return "";
+            }
         }  
         /// <summary>
         /// 
@@ -32,12 +38,15 @@ namespace SerializeTools
         /// <param name="xmlFilePath"></param>
         public static void SerializeToXml<T>(T anyobject, string xmlFilePath) where T : class  
         {  
-            XmlSerializer xmlSerializer = new XmlSerializer(anyobject.GetType());  
-  
-            using (StreamWriter writer = new StreamWriter(xmlFilePath))  
-            {  
-                xmlSerializer.Serialize(writer, anyobject);  
-            }  
+            if (!ReferenceEquals(anyobject, null))
+            {
+                XmlSerializer xmlSerializer = new XmlSerializer(anyobject.GetType());
+
+                using (StreamWriter writer = new StreamWriter(xmlFilePath))
+                {
+                    xmlSerializer.Serialize(writer, anyobject);
+                }
+            }
         }  
         /// <summary>
         /// 
@@ -53,7 +62,7 @@ namespace SerializeTools
             writer.Write(xml);
             writer.Flush();
             stream.Position = 0;
-            return (T)ser.Deserialize(stream);
+            return (T)ser.Deserialize(stream)!;
         }  
         /// <summary>
         /// 
@@ -67,7 +76,7 @@ namespace SerializeTools
   
             using (StreamReader sr = new StreamReader(filepath))  
             {  
-                return (T)ser.Deserialize(sr);  
+                return (T)ser.Deserialize(sr)!;  
             }  
         }  
     }
