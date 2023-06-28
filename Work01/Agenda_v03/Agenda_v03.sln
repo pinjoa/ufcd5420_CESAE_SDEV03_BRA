@@ -3,7 +3,7 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 17
 VisualStudioVersion = 17.6.33723.286
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Agenda_console", "Agenda_console\Agenda_console.csproj", "{4C19E0DD-2828-4B31-905E-39FDAEC16F53}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Agenda_Console", "Agenda_Console\Agenda_Console.csproj", "{4C19E0DD-2828-4B31-905E-39FDAEC16F53}"
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Agenda_BO", "Agenda_BO\Agenda_BO.csproj", "{42DC1F9B-A9A5-4F4A-B8E9-976416222715}"
 EndProject
