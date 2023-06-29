@@ -139,11 +139,12 @@ namespace Agenda_DAL
 
         public void ExportarDados()
         {
-            if (_modified > _loaded || !File.Exists(Constantes.NomeXmlCompromissos))
+        	string ficheiro = System.IO.Path.Combine(System.AppContext.BaseDirectory, Constantes.NomeXmlCompromissos);
+            if (_modified > _loaded || !File.Exists(ficheiro))
             {
                 try
                 {
-                    ExportarXml(Constantes.NomeXmlCompromissos);
+                    ExportarXml(ficheiro);
                     _modified = _loaded = DateTime.Now;
                 }
                 catch (Exception)
@@ -173,7 +174,8 @@ namespace Agenda_DAL
 
         public bool ImportarDados()
         {
-            return ImportarXml(Constantes.NomeXmlCompromissos);
+        	string ficheiro = System.IO.Path.Combine(System.AppContext.BaseDirectory, Constantes.NomeXmlCompromissos);
+            return ImportarXml(ficheiro);
         }
 
         public bool ImportarXml(string ficheiro)

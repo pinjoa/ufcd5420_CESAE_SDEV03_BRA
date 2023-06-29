@@ -38,7 +38,7 @@ internal class Program
             MostrarLista(gestaoCompromissos.GetCompromissoList());
 
         Console.WriteLine($"Verificar o objeto com o nome \"{novo1.Nome}\"");
-        if (gestaoCompromissos.ExisteCliente(novo1.Nome))
+        if (gestaoCompromissos.ExisteCompromisso(novo1.Nome))
         {
             Console.WriteLine($"Modificar a data do objeto com o nome \"{novo1.Nome}\"");
             gestaoCompromissos.ModificarCompromisso(novo1, 15, 3);
