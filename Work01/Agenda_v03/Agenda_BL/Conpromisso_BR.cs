@@ -51,19 +51,19 @@ namespace Agenda_BL
         /// <param name="hora"></param>
         /// <param name="bloco"></param>
         /// <param name="prioridade"></param>
-        /// <param name="nome"></param>
+        /// <param name="nomeCliente"></param>
         /// <param name="assunto"></param>
         /// <param name="tipoAgendamento"></param>
         /// <returns></returns>
         /// <exception cref="ArgumentNullException"></exception>
         public Compromisso NovoCompromisso(DateTime data, int hora, int bloco, 
-            Prioridade prioridade, string nome, string assunto, 
+            Prioridade prioridade, string nomeCliente, string assunto, 
             TipoAgendamento tipoAgendamento)
         {
             int tBloco = ValidarBloco(bloco);
             DateTime tData = CalcularData(data, hora, tBloco);
             Prioridade tPrioridade = prioridade;
-            string tNome = nome.Trim();
+            string tNome = nomeCliente.Trim();
             if (tNome.Length == 0) throw new ArgumentNullException(nameof(tNome));
             string tAssunto = assunto ?? throw new ArgumentNullException(nameof(assunto));
             TipoAgendamento tTipoAgendamento = tipoAgendamento;
@@ -75,17 +75,17 @@ namespace Agenda_BL
         /// </summary>
         /// <param name="hora"></param>
         /// <param name="bloco"></param>
-        /// <param name="nome"></param>
+        /// <param name="nomeCliente"></param>
         /// <param name="assunto"></param>
         /// <param name="prioridade"></param>
         /// <param name="tipoAgendamento"></param>
         /// <returns></returns>
-        public Compromisso NovoCompromisso(int hora, int bloco, string nome, string assunto,
+        public Compromisso NovoCompromisso(int hora, int bloco, string nomeCliente, string assunto,
             Prioridade prioridade = Prioridade.Media,
             TipoAgendamento tipoAgendamento = TipoAgendamento.Profissional)
         {
             return NovoCompromisso(DateTime.Now, hora, bloco, 
-                prioridade, nome, assunto, tipoAgendamento);
+                prioridade, nomeCliente, assunto, tipoAgendamento);
         }
         /// <summary>
         /// 
@@ -100,20 +100,20 @@ namespace Agenda_BL
         /// <summary>
         /// 
         /// </summary>
-        /// <param name="nome"></param>
+        /// <param name="nomeCliente"></param>
         /// <returns></returns>
-        public bool ApagarCompromisso(string nome)
+        public bool ApagarCompromisso(string nomeCliente)
         {
-            return _CompromissoDao.ApagarCompromisso(nome);
+            return _CompromissoDao.ApagarCompromisso(nomeCliente);
         }
         /// <summary>
         /// 
         /// </summary>
-        /// <param name="nome"></param>
+        /// <param name="nomeCliente"></param>
         /// <returns></returns>
-        public bool ExisteCliente(string nome)
+        public bool ExisteCompromisso(string nomeCliente)
         {
-            return _CompromissoDao.ExisteCliente(nome);
+            return _CompromissoDao.ExisteCompromisso(nomeCliente);
         }
         /// <summary>
         /// 

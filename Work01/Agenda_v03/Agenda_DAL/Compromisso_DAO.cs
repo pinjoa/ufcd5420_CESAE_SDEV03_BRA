@@ -66,15 +66,15 @@ namespace Agenda_DAL
             return false;
         }
 
-        public bool ApagarCompromisso(string nome)
+        public bool ApagarCompromisso(string nomeCliente)
         {
             Compromisso? obj = null;
-            string tNome = nome.Trim();
-            if (ExisteCliente(tNome, out obj))
+            string tNome = nomeCliente.Trim();
+            if (ExisteCompromisso(tNome, out obj))
             {
                 if (ReferenceEquals(obj, null)) return false;
                 // apagar todos os registos com o nome igual ao "nome"
-                if (_compromissoList.Items.RemoveAll(r => r.Nome.Equals(nome)) > 0)
+                if (_compromissoList.Items.RemoveAll(r => r.Nome.Equals(tNome)) > 0)
                 {
                     _modified = DateTime.Now;
                     return true;
@@ -95,18 +95,18 @@ namespace Agenda_DAL
             return false;
         }
 
-        public bool ExisteCliente(string nome)
+        public bool ExisteCompromisso(string nomeCliente)
         {
             Compromisso? obj = null;
-            return ExisteCliente(nome, out obj);
+            return ExisteCompromisso(nomeCliente, out obj);
         }
 
-        public bool ExisteCliente(string nome, out Compromisso? obj)
+        public bool ExisteCompromisso(string nomeCliente, out Compromisso? obj)
         {
             obj = null;
-            string tNome = nome.Trim();
+            string tNome = nomeCliente.Trim();
             if (tNome.Length == 0) return false;
-            int tIndex = _compromissoList.Items.FindIndex(r => r.Nome.Equals(nome));
+            int tIndex = _compromissoList.Items.FindIndex(r => r.Nome.Equals(tNome));
             if (tIndex > -1)
             {
                 obj = new Compromisso(_compromissoList.Items[tIndex]);
@@ -115,7 +115,7 @@ namespace Agenda_DAL
             return false;
         }
         
-        public bool ExisteCliente(int id, out Compromisso? obj)
+        public bool ExisteCompromisso(int id, out Compromisso? obj)
         {
             obj = null;
             int tIndex = _compromissoList.Items.FindIndex(r => r.Id.Equals(id));
