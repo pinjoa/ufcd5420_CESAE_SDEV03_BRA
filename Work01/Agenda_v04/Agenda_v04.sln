@@ -25,6 +25,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Agenda_Models2Api", "Agenda
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Agenda_Services2Api", "Agenda_Services2Api\Agenda_Services2Api.csproj", "{C3918744-C3B2-4025-B2FB-51BA325A74E8}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Agenda_Console2Api", "Agenda_Console2Api\Agenda_Console2Api.csproj", "{4B31B67B-DB59-4C97-9B9A-CE143BC4DFD3}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -75,6 +77,10 @@ Global
 		{C3918744-C3B2-4025-B2FB-51BA325A74E8}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{C3918744-C3B2-4025-B2FB-51BA325A74E8}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{C3918744-C3B2-4025-B2FB-51BA325A74E8}.Release|Any CPU.Build.0 = Release|Any CPU
+		{4B31B67B-DB59-4C97-9B9A-CE143BC4DFD3}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{4B31B67B-DB59-4C97-9B9A-CE143BC4DFD3}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{4B31B67B-DB59-4C97-9B9A-CE143BC4DFD3}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{4B31B67B-DB59-4C97-9B9A-CE143BC4DFD3}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

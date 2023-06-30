@@ -4,10 +4,17 @@ using Microsoft.AspNetCore.Mvc;
 
 namespace Agenda_WebAPI.Controllers
 {
+    /// <summary>
+    /// agendamento de compromissos
+    /// </summary>
     [Route("api/[controller]")]
     [ApiController]
     public class AgendaController : ControllerBase
     {
+        /// <summary>
+        /// devolve a lista de compromissos
+        /// </summary>
+        /// <returns></returns>
         [HttpGet]
         [Produces("application/json")]
         [ProducesResponseType(typeof(List<AgendaRegistoResponse>), StatusCodes.Status200OK)]
