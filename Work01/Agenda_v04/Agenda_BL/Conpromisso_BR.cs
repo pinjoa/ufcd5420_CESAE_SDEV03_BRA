@@ -154,7 +154,7 @@ namespace Agenda_BL
             List<AgendaRegistoResponse> lista = new List<AgendaRegistoResponse>();
             foreach (var c in _CompromissoDao.GetCompromissos())
             {
-                lista.Add(c.RegistoCompromissoResponse());
+                //lista.Add(c.RegistoCompromissoResponse());
             }
             return lista;
         }
