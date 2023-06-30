@@ -214,7 +214,7 @@ namespace Agenda_DAL
             List<Compromisso> list = new List<Compromisso>();
             foreach (RegistoCompromisso c in _compromissoList.Items)
             {
-                //list.Add();
+                list.Add(new Compromisso(c));
             }
             return list;
         }
