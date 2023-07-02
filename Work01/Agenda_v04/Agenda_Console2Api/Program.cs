@@ -1,4 +1,10 @@
-﻿using Agenda_Models2Api;
+﻿//
+// para ver e pesquisar mais sobre este assunto:
+// https://learn.microsoft.com/en-us/aspnet/web-api/overview/advanced/calling-a-web-api-from-a-net-client
+// https://learn.microsoft.com/en-us/dotnet/fundamentals/networking/http/httpclient
+// https://learn.microsoft.com/en-us/dotnet/api/system.net.http.httpclient?view=net-7.0
+//
+using Agenda_Models2Api;
 using Newtonsoft.Json;
 
 internal class Program
