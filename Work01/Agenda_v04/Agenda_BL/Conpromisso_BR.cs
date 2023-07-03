@@ -159,5 +159,71 @@ namespace Agenda_BL
             return lista;
         }
 
+        public bool ExisteCompromisso(int id, out Compromisso? obj)
+        {
+            obj = null;
+            return _CompromissoDao.ExisteCompromisso(id, out obj);
+        }
+
+        public AgendaRegistoResponse? ObterCompromissoResponse(int id)
+        {
+            AgendaRegistoResponse? obj = null;
+            Compromisso? compromisso = null;
+            if (ExisteCompromisso(id, out compromisso))
+            {
+                obj = new AgendaRegistoResponse
+                {
+                    Id = compromisso.Id,
+                    Data = compromisso.Data,
+                    Bloco = compromisso.Bloco,
+                    Prioridade = compromisso.Prioridade,
+                    Nome = compromisso.Nome,
+                    Assunto = compromisso.Assunto,
+                    TipoAgendamento = compromisso.TipoAgendamento,
+                    Concluido = compromisso.Concluido,
+                    Conclusao = compromisso.Conclusao
+                };
+            }
+            return obj;
+        }
+
+        public bool AdicionarCompromissoRequest(AgendaRegistoRequest request)
+        {
+            Compromisso compromisso = NovoCompromisso(
+                request.Data,
+                request.Data.Hour,
+                request.Bloco,
+                request.Prioridade,
+                request.Nome,
+                request.Assunto,
+                request.TipoAgendamento);
+            compromisso.Concluido = request.Concluido;
+            compromisso.Conclusao = request.Conclusao;
+            return AdicionarCompromisso(compromisso);
+        }
+
+        public bool ModificarCompromissoRequest(int id, AgendaRegistoRequest request)
+        {
+            Compromisso? obj = null;
+            if (ExisteCompromisso(id, out obj))
+            {
+                obj.Data = request.Data;
+                obj.Bloco = request.Bloco;
+                obj.Prioridade = request.Prioridade;
+                obj.Nome = request.Nome;
+                obj.Assunto = request.Assunto;
+                obj.TipoAgendamento = request.TipoAgendamento;
+                obj.Concluido = request.Concluido;
+                obj.Conclusao = request.Conclusao;
+                return ModificarCompromisso(id, obj);
+            }
+            return false;
+        }
+
+        public bool ApagarCompromisso(int id)
+        {
+            return _CompromissoDao.ApagarCompromisso(id);
+        }
+
     }
 }
