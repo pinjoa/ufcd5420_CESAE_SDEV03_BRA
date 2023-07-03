@@ -6,10 +6,15 @@ Projeto final da UFCD 5421.
 
 ### Enunciado
 
-Tema escolhido individualmente.
+O tema é escolhido individualmente. *E a descrição é feita no Teams no formulário da tarefa individual.*
 
-(*A descrição do projeto será feita no Teams no formulário da tarefa individual.*)
+**A descrição do projeto consiste em**:
+1.	Fazer uma descrição do "negócio" de preferência o mais detalhada possível, não esquecer de identificar e descrever todos processos de “negócio” necessários (para que tudo o que for escrito nos pontos seguintes faça sentido);
+2.	A partir da descrição do “negócio” identificar as estruturas “detalhadas” de dados e a relação entre elas (serão os dados necessários para o projeto funcionar, também serão guardados no formato XML e depois na base de dados PostgreSql);
+3.	Utilizando como base a informação dos pontos anteriores, identificar e descrever os requisitos funcionais que serão implementados no projeto;
+4.	Pensar e descrever a estrutura para o desenvolvimento do projeto tendo como referência (apenas) todas as informações dos 3 pontos anteriores.
 
+(***NOTA:** o objetivo é identificar tudo o que será feito no projeto, também é a forma para verificar a coerência entre a descrição, o código e a apresentação final*)
 
 ### Evidências demonstradas (esperadas)
 
