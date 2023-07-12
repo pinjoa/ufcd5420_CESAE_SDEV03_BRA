@@ -19,7 +19,7 @@ O tema é escolhido individualmente. *E a descrição é feita no Teams no formu
 ### Evidências demonstradas (esperadas)
 
   - Análise;
-  - Código C# bem estruturado;
+  - Código **C#** bem estruturado;
   - Aplicar e saber aplicar padrões de design (Singleton, Abstract, Factory);
   - Aplicar e saber aplicar interfaces;
   - Aplicar e saber aplicar padrões de arquitetura (MVC/MVVM, N-Tier);
