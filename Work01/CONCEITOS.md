@@ -58,6 +58,8 @@ Ilustração **arquitetura 3-Tier**:
   - **I** — Interface Segregation Principle (Princípio da Segregação da Interface, uma classe não deve ser forçada a implementar interfaces e métodos que não irão utilizar)
   - **D** — Dependency Inversion Principle (Princípio da inversão da dependência, dependa de abstrações e não de implementações)
 
-**Leitura recomendada** deste [artigo](https://medium.com/desenvolvendo-com-paixao/o-que-%C3%A9-solid-o-guia-completo-para-voc%C3%AA-entender-os-5-princ%C3%ADpios-da-poo-2b937b3fc530) na plataforma Medium.
+**Leitura recomendada** :
+  - [artigo1](https://medium.com/desenvolvendo-com-paixao/o-que-%C3%A9-solid-o-guia-completo-para-voc%C3%AA-entender-os-5-princ%C3%ADpios-da-poo-2b937b3fc530) na plataforma Medium.
+  - [artigo2](https://www.freecodecamp.org/portuguese/news/os-principios-solid-da-programacao-orientada-a-objetos-explicados-em-bom-portugues/)  
   
   
