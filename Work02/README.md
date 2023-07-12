@@ -57,9 +57,9 @@ Mais informações:
   
   
 
-### Critérios de avaliação
+### Critérios de avaliação  
 
-Geral:
+Geral:  
 [-3,3] GIT, DRY, KISS, CODE SMELL, DESIGN PATTERNS, ARQUITECTURAL PATTERNS;  
 
 [-3,3] Principios [SOLID](https://www.freecodecamp.org/portuguese/news/os-principios-solid-da-programacao-orientada-a-objetos-explicados-em-bom-portugues/):  
@@ -77,11 +77,11 @@ Geral:
 	- Reutilização: O código pode ser reutilizado em diferentes projetos?  
 	
 Projeto:  
-	- [-3,3] Descrição do projeto, identificar/relacionar estruturas dados, requisitos funcionais;  
-	- [-5,5] Desenvolvimento completo da solução (em conformidade com as evidencias esperadas);  
+[-3,3] Descrição do projeto, identificar/relacionar estruturas dados, requisitos funcionais;  
+[-5,5] Desenvolvimento completo da solução (em conformidade com as evidencias esperadas);  
 	
 Apresentação:  
-	- [-1,1] Respeitar método;  
-	- [-2,2] Conteúdo apresentação;  
+[-1,1] Respeitar método;  
+[-2,2] Conteúdo apresentação;  
 	
 	
