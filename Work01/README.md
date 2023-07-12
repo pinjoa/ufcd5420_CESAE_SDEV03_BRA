@@ -24,6 +24,7 @@ Para evitar colisões de agendamento pediu um sistema que permita registar este 
  
   - Agenda_v02: solução removida e substituida pela **Agenda_v03**  
   - [Agenda_v03](Agenda_v03/), aula dias 15, 16 e 23-jun-2023
+  - [Agenda_v04](Agenda_v04/), aula dias 26, 30-jun e 3-jul-2023
  
 Alterações diversas, detalhadas no documento **README.md**
  
