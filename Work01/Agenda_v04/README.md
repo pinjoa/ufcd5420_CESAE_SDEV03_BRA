@@ -35,5 +35,12 @@ Estrutura alterada:
   - [ToolBox](ToolBox/): ToolBox (ex: GetNewId)  
   - [Agenda_Console](Agenda_Console/): 1ª Abordagem, (serializar) XmlElement  
   - [teste1xml](teste1xml/): 2ª Abordagem, (serializar) XmlAttribute  
-
   
+-------------------
+  - [Agenda_Console2Api](Agenda_Console2Api/): Programa teste do API  
+  - [Agenda_Models2Api](Agenda_Models2Api/): Modelos do API  
+  - [Agenda_Services2Api](Agenda_Services2Api/): Serviços (BL) do API 
+  - [Agenda_WebAPI](Agenda_WebAPI/): WebAPI  
+   
+   
+   
