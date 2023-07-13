@@ -83,5 +83,8 @@ Projeto:
 Apresentação:  
 [-1,1] Respeitar método;  
 [-2,2] Conteúdo apresentação;  
-	
-	
+
+-----------
+
+NOTA MINIMA: 10 valores
+
