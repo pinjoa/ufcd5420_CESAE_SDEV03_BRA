@@ -32,8 +32,9 @@ O tema é escolhido individualmente. *E a descrição é feita no Teams no formu
 
 ### Entregáveis
 
-  - Solução completa (sem binários) no repositório privado individual;
-  - Pelo menos um projeto "tipo console", com evidências para demonstrar o funcionamento da solução do projeto;
+  - Solução completa (sem binários) no repositório privado individual;  
+  - Deve ser incluido um ficheiro.SQL com todo o **código SQL** necessário para reproduzir a base de dados;  
+  - Pelo menos um projeto "tipo console", com evidências para demonstrar o funcionamento da solução do projeto;  
   
 NOTA: deve ser incluido um documento no formato PDF com os diapositivos da apresentação
 
