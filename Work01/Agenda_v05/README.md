@@ -6,11 +6,7 @@ Projeto que evolui com a matéria da aula.
 
 **Enunciado versão 01**:
 
-Recebemos uma encomenda do Sr António Ocupado, um consultor que dedica apenas 15min do seu tempo para cada cliente. 
-
-Este método de trabalho está a criar-lhe constrangimentos na gestão do agendamento de compromissos.
-
-Para evitar colisões de agendamento pediu um sistema que permita registar este conjunto de dados ordenados por Data/Hora:
+Recebemos uma encomenda do Sr António Ocupado, um consultor que dedica apenas 15min do seu tempo para cada cliente. Este método de trabalho está a criar-lhe constrangimentos na gestão do agendamento de compromissos. Para evitar colisões de agendamento pediu um sistema que permita registar este conjunto de dados ordenados por Data/Hora:  
   - Data/Hora (ajustar para blocos de 15min);
   - Nº bloco (1-4);
   - Prioridade (1-alta, 2-média, 3-baixa);
