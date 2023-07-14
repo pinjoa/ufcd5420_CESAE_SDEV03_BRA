@@ -1,0 +1,21 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>net7.0</TargetFramework>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <Nullable>enable</Nullable>
+    <LangVersion>10</LangVersion>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="Npgsql" Version="7.0.4" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\Agenda_BOpg\Agenda_BOpg.csproj" />
+    <ProjectReference Include="..\Agenda_Configuration\Agenda_Configuration.csproj" />
+    <ProjectReference Include="..\Agenda_DALpg\Agenda_DALpg.csproj" />
+    <ProjectReference Include="..\Agenda_Models2Api\Agenda_Models2Api.csproj" />
+  </ItemGroup>
+
+</Project>

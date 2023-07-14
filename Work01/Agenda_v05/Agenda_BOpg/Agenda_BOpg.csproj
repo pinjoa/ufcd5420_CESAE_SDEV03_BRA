@@ -1,0 +1,15 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>net7.0</TargetFramework>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <Nullable>enable</Nullable>
+    <LangVersion>10</LangVersion>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\Agenda_Consts\Agenda_Consts.csproj" />
+    <ProjectReference Include="..\Agenda_Models2Api\Agenda_Models2Api.csproj" />
+  </ItemGroup>
+
+</Project>
