@@ -62,30 +62,30 @@ Mais informações:
 
 Geral:  
 [-3,3] GIT, DRY, KISS, CODE SMELL, DESIGN PATTERNS, ARQUITECTURAL PATTERNS;  
-
+  
 [-3,3] Principios [SOLID](https://www.freecodecamp.org/portuguese/news/os-principios-solid-da-programacao-orientada-a-objetos-explicados-em-bom-portugues/):  
 	- O **S**ingle Responsibility Principle (Princípio da responsabilidade única);  
 	- O **O**pen-Closed Principle (Princípio aberto/fechado);  
 	- O **L**iskov Substitution Principle (Princípio da substituição de Liskov);  
 	- O **I**nterface Segregation Principle (Princípio da segregação da interface);  
 	- O **D**ependency Inversion Principle (Princípio da inversão da dependência);  
-	
+  	
 [-3,3] Código C#:  
 	- Confiabilidade: O código é robusto e confiável?  
 	- Eficiência: O código é eficiente em termos de tempo e espaço?  
 	- Funcionalidade: O código faz o que é suposto fazer?  
 	- Manutenibilidade: O código é fácil de manter e modificar?   
 	- Reutilização: O código pode ser reutilizado em diferentes projetos?  
-	
+  	
 Projeto:  
 [-3,3] Descrição do projeto, identificar/relacionar estruturas dados, requisitos funcionais;  
 [-5,5] Desenvolvimento completo da solução (em conformidade com as evidencias esperadas);  
-	
+  	
 Apresentação:  
 [-1,1] Respeitar método;  
 [-2,2] Conteúdo apresentação;  
-
+  
 -----------
-
+  
 NOTA MINIMA: 10 valores
 
