@@ -1,4 +1,4 @@
--- 
+-- PostgreSQL
 -- script para a tabela compromissos
 DROP TABLE IF EXISTS compromissos;
 
