@@ -48,4 +48,9 @@ Estrutura alterada:
   - [Agenda_WebAPIpg](Agenda_WebAPIpg/): WebAPI (com alterações para PostgreSQL)  
   
   
-   
+------------------
+ 
+[PostgreSQL Documentation, the pg_hba.conf file](https://www.postgresql.org/docs/9.3/auth-pg-hba-conf.html) 
+ 
+  
+  
